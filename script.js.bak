@@ -1,0 +1,26 @@
+let display = document.getElementById("calc-display");
+
+function appendCharacter(char) {
+    if (char === "." && display.value.includes(".")) return; // Prevent multiple decimals in one number
+    if (["+", "-", "*", "/"].includes(char) && display.value === "") return; // Prevent operators at start
+    if (["+", "-", "*", "/"].includes(char) && ["+", "-", "*", "/"].includes(display.value.slice(-1))) return; // Prevent consecutive operators
+    display.value += char;
+}
+
+function clearDisplay() {
+    display.value = "";
+}
+
+function calculateResult() {
+    try {
+        if (display.value === "") return;
+        let result = eval(display.value);
+        if (!isFinite(result)) {
+            display.value = "Error";
+        } else {
+            display.value = result;
+        }
+    } catch {
+        display.value = "Error";
+    }
+}

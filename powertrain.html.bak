@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Powertrain Guide</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #3498db;
+      display: inline-block;
+    }
+
+    p, ul {
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Card Styles */
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Images Section */
+    .images {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .images img {
+      max-width: 45%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      margin-bottom: 15px;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Video Section */
+    .video-container {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-container iframe {
+      max-width: 100%;
+      height: 400px;
+      border-radius: 10px;
+      border: 5px solid #3498db;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .images img {
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+
+      .video-container iframe {
+        height: 250px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Car Powertrain Guide</h1>
+
+    <!-- Purpose Section -->
+    <div class="card">
+      <h2>Purpose</h2>
+      <p>The powertrain is the system responsible for generating and delivering power to the wheels. It includes the engine, transmission, driveshaft, differential, and axles. The powertrain ensures the vehicle can move efficiently and smoothly.</p>
+    </div>
+
+    <!-- Components of the Powertrain Section -->
+    <div class="card">
+      <h2>Components of the Powertrain</h2>
+      <ul>
+        <li><strong>Engine:</strong> Generates power by burning fuel or using electricity.</li>
+        <li><strong>Transmission:</strong> Transfers power from the engine to the driveshaft while allowing gear changes.</li>
+        <li><strong>Driveshaft:</strong> Transmits power from the transmission to the differential.</li>
+        <li><strong>Differential:</strong> Distributes power to the wheels while allowing them to rotate at different speeds.</li>
+        <li><strong>Axles:</strong> Transfer power from the differential to the wheels.</li>
+      </ul>
+    </div>
+
+    <!-- Types of Powertrains Section -->
+    <div class="card">
+      <h2>Types of Powertrains</h2>
+      <ul>
+        <li><strong>Front-Wheel Drive (FWD):</strong> Power is delivered to the front wheels. Common in compact and mid-size cars.</li>
+        <li><strong>Rear-Wheel Drive (RWD):</strong> Power is delivered to the rear wheels. Often used in trucks and performance vehicles.</li>
+        <li><strong>All-Wheel Drive (AWD):</strong> Power is delivered to all four wheels, improving traction and stability.</li>
+        <li><strong>Four-Wheel Drive (4WD):</strong> Designed for off-road use, allowing the driver to switch between 2WD and 4WD.</li>
+        <li><strong>Electric Powertrain:</strong> Uses an electric motor and battery to power the vehicle, common in electric cars.</li>
+      </ul>
+    </div>
+
+    <!-- Maintenance Section -->
+    <div class="card">
+      <h2>Maintenance</h2>
+      <ul>
+        <li>Regularly check and change the engine oil to ensure proper lubrication.</li>
+        <li>Inspect the transmission fluid and replace it as recommended by the manufacturer.</li>
+        <li>Check the driveshaft and axles for wear or damage and replace them if necessary.</li>
+        <li>Ensure the differential is properly lubricated and functioning correctly.</li>
+        <li>Listen for unusual noises (e.g., grinding or clunking) that may indicate powertrain issues.</li>
+      </ul>
+    </div>
+
+    <!-- Signs of Powertrain Issues Section -->
+    <div class="card">
+      <h2>Signs of Powertrain Issues</h2>
+      <ul>
+        <li><strong>Check Engine Light:</strong> Indicates a potential problem with the engine or transmission.</li>
+        <li><strong>Unusual Noises:</strong> Grinding, clunking, or whining sounds may signal powertrain trouble.</li>
+        <li><strong>Poor Performance:</strong> Reduced power, acceleration, or fuel efficiency.</li>
+        <li><strong>Transmission Problems:</strong> Difficulty shifting gears or slipping gears.</li>
+        <li><strong>Vibrations:</strong> Excessive vibrations while driving may indicate issues with the driveshaft or axles.</li>
+      </ul>
+    </div>
+
+    <!-- Images Section -->
+    <div class="images">
+      <img src="https://via.placeholder.com/400x300?text=Powertrain+Image+1" alt="Powertrain Image 1">
+      <img src="https://via.placeholder.com/400x300?text=Powertrain+Image+2" alt="Powertrain Image 2">
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <h2>Learn More About Powertrains</h2>
+      <iframe
+        width="560"
+        height="400"
+        src="https://www.youtube.com/embed/r2y-7669xMc" <!-- Replace with a relevant powertrain video -->
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</body>
+</html>

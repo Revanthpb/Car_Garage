@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Transmission Guide</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #3498db;
+      display: inline-block;
+    }
+
+    p, ul {
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Card Styles */
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Images Section */
+    .images {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .images img {
+      max-width: 45%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      margin-bottom: 15px;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Video Section */
+    .video-container {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-container iframe {
+      max-width: 100%;
+      height: 400px;
+      border-radius: 10px;
+      border: 5px solid #3498db;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .images img {
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+
+      .video-container iframe {
+        height: 250px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Car Transmission Guide</h1>
+
+    <!-- Purpose Section -->
+    <div class="card">
+      <h2>Purpose</h2>
+      <p>The transmission is a crucial component of a vehicle, responsible for transferring power from the engine to the wheels. It allows the driver to control the speed and torque of the vehicle by shifting gears.</p>
+    </div>
+
+    <!-- Types of Transmissions Section -->
+    <div class="card">
+      <h2>Types of Transmissions</h2>
+      <ul>
+        <li><strong>Manual Transmission:</strong> Requires the driver to manually shift gears using a clutch pedal and gear stick.</li>
+        <li><strong>Automatic Transmission:</strong> Automatically shifts gears without driver intervention, providing a smoother driving experience.</li>
+        <li><strong>Continuously Variable Transmission (CVT):</strong> Uses a belt and pulley system to provide seamless acceleration without fixed gear ratios.</li>
+        <li><strong>Dual-Clutch Transmission (DCT):</strong> Combines the efficiency of a manual transmission with the convenience of an automatic.</li>
+        <li><strong>Semi-Automatic Transmission:</strong> Allows manual gear shifts without a clutch pedal, often using paddle shifters.</li>
+      </ul>
+    </div>
+
+    <!-- Components Section -->
+    <div class="card">
+      <h2>Components</h2>
+      <ul>
+        <li><strong>Gearbox:</strong> Houses the gears and is responsible for shifting them to control speed and torque.</li>
+        <li><strong>Clutch:</strong> Engages and disengages the engine from the transmission in manual systems.</li>
+        <li><strong>Torque Converter:</strong> Replaces the clutch in automatic transmissions, transferring engine power to the transmission.</li>
+        <li><strong>Transmission Fluid:</strong> Lubricates and cools the transmission components.</li>
+        <li><strong>Shift Linkage:</strong> Connects the gear stick to the transmission in manual systems.</li>
+      </ul>
+    </div>
+
+    <!-- Maintenance Section -->
+    <div class="card">
+      <h2>Maintenance</h2>
+      <ul>
+        <li>Regularly check and replace transmission fluid to ensure smooth operation.</li>
+        <li>Inspect for leaks in the transmission system, especially around seals and gaskets.</li>
+        <li>Listen for unusual noises (e.g., grinding or whining) that may indicate transmission issues.</li>
+        <li>Ensure the clutch (in manual systems) is functioning properly and replace it if worn out.</li>
+        <li>Schedule periodic transmission inspections and servicing to maintain performance.</li>
+      </ul>
+    </div>
+
+    <!-- Signs of Transmission Issues Section -->
+    <div class="card">
+      <h2>Signs of Transmission Issues</h2>
+      <ul>
+        <li><strong>Difficulty Shifting Gears:</strong> Hard or delayed gear shifts, especially in manual transmissions.</li>
+        <li><strong>Slipping Gears:</strong> The transmission unexpectedly shifts out of gear while driving.</li>
+        <li><strong>Unusual Noises:</strong> Grinding, whining, or clunking sounds during gear changes.</li>
+        <li><strong>Transmission Fluid Leaks:</strong> Visible red or brown fluid under the vehicle.</li>
+        <li><strong>Check Engine Light:</strong> May indicate a problem with the transmission system.</li>
+      </ul>
+    </div>
+
+    <!-- Images Section -->
+    <div class="images">
+      <img src="https://www.blauto.com/Files/EmailCampaigns/AdobeStock_92040494.jpeg" alt="Transmission Image 1">
+      <img src="data:image/jpeg;base64,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" alt="Transmission Image 2">
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <h2>Learn More About Transmissions</h2>
+      <iframe
+        width="560"
+        height="400"
+        src="https://www.youtube.com/embed/YFTtHRdM-iU" <!-- Replace with a relevant transmission video -->
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</body>
+</html>

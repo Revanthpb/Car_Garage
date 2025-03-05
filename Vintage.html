@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Indian Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vintage Indian Cars</h1>
+    <div class="container">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ambassador_Classic_on_the_NH_748_of_Goa-Karnataka_Border.jpg/1280px-Ambassador_Classic_on_the_NH_748_of_Goa-Karnataka_Border.jpg" alt="Hindustan Ambassador">
+            <h3>Hindustan Ambassador</h3>
+            <p><strong>Engine:</strong> 1.5L/1.8L Petrol, 2.0L Diesel</p>
+            <p><strong>Power:</strong> 37-75 HP</p>
+            <p><strong>Transmission:</strong> 4/5-speed Manual</p>
+            <p><strong>Body Style:</strong> 4-door sedan</p>
+            <p><strong>Legacy:</strong> Known for durability and comfort</p>
+        </div>
+        <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="Premier Padmini">
+            <h3>Premier Padmini</h3>
+            <p><strong>Engine:</strong> 1.1L Petrol</p>
+            <p><strong>Power:</strong> 47 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> 4-door sedan</p>
+            <p><strong>Legacy:</strong> Popular among middle-class families</p>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/98/9a/73/989a73f9a125ad6b44477df6d8365f28.jpg" alt="Hindustan Contessa">
+            <h3>Hindustan Contessa</h3>
+            <p><strong>Engine:</strong> 1.5L Petrol, 2.0L Diesel</p>
+            <p><strong>Power:</strong> 54-88 HP</p>
+            <p><strong>Transmission:</strong> 4/5-speed Manual</p>
+            <p><strong>Body Style:</strong> 4-door luxury sedan</p>
+            <p><strong>Legacy:</strong> India’s first luxury car</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrF52kKDDRVqxd73Oi5EGOo1nDnvaBvb7FLA&s" alt="Standard Herald">
+            <h3>Standard Herald</h3>
+            <p><strong>Engine:</strong> 948cc - 1.1L Petrol</p>
+            <p><strong>Power:</strong> 40-46 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> 2/4-door sedan</p>
+            <p><strong>Legacy:</strong> Stylish but had reliability issues</p>
+        </div>
+        <div class="card">
+            <img src="https://res.cloudinary.com/jerrick/image/upload/v1623727258/60c81c9a08542f001dab3c12.jpg" alt="Standard 2000">
+            <h3>Standard 2000</h3>
+            <p><strong>Engine:</strong> 2.0L Petrol</p>
+            <p><strong>Power:</strong> 83 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> 4-door sedan</p>
+            <p><strong>Legacy:</strong> Marketed as a luxury car but failed</p>
+        </div>
+        <div class="card">
+            <img src="https://blogs.gomechanic.com/wp-content/uploads/2020/05/Tata-Sierra-01.jpg" alt="Tata Sierra">
+            <h3>Tata Sierra</h3>
+            <p><strong>Engine:</strong> 2.0L Turbo Diesel</p>
+            <p><strong>Power:</strong> 90 HP</p>
+            <p><strong>Transmission:</strong> 5-speed Manual</p>
+            <p><strong>Body Style:</strong> 3-door SUV</p>
+            <p><strong>Legacy:</strong> India’s first lifestyle SUV</p>
+        </div>
+        <div class="card">
+            <img src="https://stimg2.cardekho.com/images/carNewsEditorImages/20150724_124337/16260/featured-advisory-stories0.jpg?impolicy=resize&imwidth=420" alt="Maruti 800">
+            <h3>Maruti 800</h3>
+            <p><strong>Engine:</strong> 796cc Petrol</p>
+            <p><strong>Power:</strong> 37 HP</p>
+            <p><strong>Transmission:</strong> 4/5-speed Manual</p>
+            <p><strong>Body Style:</strong> 5-door hatchback</p>
+            <p><strong>Legacy:</strong> India’s most affordable car</p>
+        </div>
+        <div class="card">
+            <img src="https://64.media.tumblr.com/5c58bdea5acd7fd1eb756bf66deeb6c3/tumblr_owwe6y24aR1u6qe4zo1_640.jpg" alt="Hindustan Trekker">
+            <h3>Hindustan Trekker</h3>
+            <p><strong>Engine:</strong> 1.5L Diesel</p>
+            <p><strong>Power:</strong> 40 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> 5-door Utility Vehicle</p>
+            <p><strong>Legacy:</strong> Rural workhorse</p>
+        </div>
+        <div class="card">
+            <img src="https://mahindramuseum.in/wp-content/uploads/2021/12/20211210_0849531701072837028646022.jpg" alt="Mahindra CJ">
+            <h3>Mahindra CJ</h3>
+            <p><strong>Engine:</strong> 2.1L Diesel</p>
+            <p><strong>Power:</strong> 62 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> Open-top Jeep</p>
+            <p><strong>Legacy:</strong> India’s off-road legend</p>
+        </div>
+        <div class="card">
+            <img src="https://www.vintauto.com/wp-content/uploads/2024/07/Fiat_1100_1960-01.webp" alt="Fiat 1100">
+            <h3>Fiat 1100</h3>
+            <p><strong>Engine:</strong> 1.1L Petrol</p>
+            <p><strong>Power:</strong> 36 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> 4-door sedan</p>
+            <p><strong>Legacy:</strong> Early popular family car</p>
+        </div>
+		<div class="card">
+            <img src="https://360views.3dmodels.org/original/Standard/Standard_Gazel_1971_360_720_50-1.jpg" alt="Standard Gazel">
+            <h3>Standard Gazel</h3>
+            <p><strong>Engine:</strong> 948cc Petrol</p>
+            <p><strong>Power:</strong> 40 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> 4-door sedan</p>
+            <p><strong>Legacy:</strong> India’s first indigenous car</p>
+        </div>
+        <div class="card">
+            <img src="https://www.cartoq.com/wp-content/uploads/2023/12/Pristine-Premier-118-NE-.jpg.webp" alt="Premier 118 NE">
+            <h3>Premier 118 NE</h3>
+            <p><strong>Engine:</strong> 1.2L Petrol</p>
+            <p><strong>Power:</strong> 52 HP</p>
+            <p><strong>Transmission:</strong> 4-speed Manual</p>
+            <p><strong>Body Style:</strong> 4-door sedan</p>
+            <p><strong>Legacy:</strong> Comfortable and smooth ride</p>
+        </div>
+    </div>
+</body>
+</html>

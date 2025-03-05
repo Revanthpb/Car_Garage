@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Camshaft Guide</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #3498db;
+      display: inline-block;
+    }
+
+    p, ul {
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Card Styles */
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Images Section */
+    .images {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .images img {
+      max-width: 45%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      margin-bottom: 15px;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Video Section */
+    .video-container {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-container iframe {
+      max-width: 100%;
+      height: 400px;
+      border-radius: 10px;
+      border: 5px solid #3498db;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .images img {
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+
+      .video-container iframe {
+        height: 250px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Car Camshaft Guide</h1>
+
+    <!-- Purpose Section -->
+    <div class="card">
+      <h2>Purpose</h2>
+      <p>The camshaft is a critical component of the engine, responsible for controlling the opening and closing of the engine's valves. It ensures proper timing of the air-fuel mixture intake and exhaust gas expulsion, which is essential for engine performance and efficiency.</p>
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="card">
+      <h2>How It Works</h2>
+      <ul>
+        <li>The camshaft is connected to the crankshaft via a timing belt or chain and rotates at half the speed of the crankshaft.</li>
+        <li>As the camshaft rotates, its lobes push against the valves (or valve lifters) to open them at the correct time.</li>
+        <li>Springs return the valves to their closed position when the camshaft lobes are no longer pushing them.</li>
+        <li>Proper timing between the camshaft and crankshaft is crucial for engine performance.</li>
+      </ul>
+    </div>
+
+    <!-- Components Section -->
+    <div class="card">
+      <h2>Components</h2>
+      <ul>
+        <li><strong>Camshaft Lobes:</strong> The raised sections of the camshaft that push against the valves to open them.</li>
+        <li><strong>Timing Belt/Chain:</strong> Connects the camshaft to the crankshaft, ensuring synchronized operation.</li>
+        <li><strong>Valve Lifters:</strong> Transfer the motion of the camshaft lobes to the valves.</li>
+        <li><strong>Camshaft Position Sensor:</strong> Monitors the position of the camshaft and sends data to the engine control unit (ECU).</li>
+        <li><strong>Bearings:</strong> Support the camshaft and allow it to rotate smoothly.</li>
+      </ul>
+    </div>
+
+    <!-- Maintenance Section -->
+    <div class="card">
+      <h2>Maintenance</h2>
+      <ul>
+        <li>Regularly inspect the timing belt or chain for wear and replace it as recommended by the manufacturer.</li>
+        <li>Check the camshaft lobes and bearings for wear and replace them if necessary.</li>
+        <li>Ensure the camshaft position sensor is functioning properly to avoid timing issues.</li>
+        <li>Listen for unusual noises (e.g., ticking or knocking) that may indicate camshaft or valve train problems.</li>
+        <li>Schedule periodic engine tune-ups to maintain proper camshaft timing and performance.</li>
+      </ul>
+    </div>
+
+    <!-- Signs of Camshaft Issues Section -->
+    <div class="card">
+      <h2>Signs of Camshaft Issues</h2>
+      <ul>
+        <li><strong>Check Engine Light:</strong> A malfunctioning camshaft or sensor can trigger the check engine light.</li>
+        <li><strong>Poor Engine Performance:</strong> Reduced power, acceleration, or fuel efficiency.</li>
+        <li><strong>Unusual Noises:</strong> Ticking or knocking sounds from the engine may indicate camshaft or valve train issues.</li>
+        <li><strong>Engine Misfires:</strong> Improper valve timing can cause misfires or rough idling.</li>
+        <li><strong>Difficulty Starting:</strong> A worn or damaged camshaft can make it difficult to start the engine.</li>
+      </ul>
+    </div>
+
+    <!-- Images Section -->
+    <div class="images">
+      <img src="https://via.placeholder.com/400x300?text=Camshaft+Image+1" alt="Camshaft Image 1">
+      <img src="https://via.placeholder.com/400x300?text=Camshaft+Image+2" alt="Camshaft Image 2">
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <h2>Learn More About Camshafts</h2>
+      <iframe
+        width="560"
+        height="400"
+        src="https://www.youtube.com/embed/XYZ12345678" <!-- Replace with a relevant camshaft video -->
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</body>
+</html>

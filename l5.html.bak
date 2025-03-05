@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW 7 Series Guide</title>
+  <style>
+       /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a); /* Black gradient */
+      margin: 0;
+      padding: 0;
+      color: #fff; /* White text for contrast */
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #1a1a1a; /* Dark background */
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* White shadow */
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #ffffff; /* White */
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #ffffff; /* White */
+      display: inline-block;
+    }
+
+    p, ul {
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #ddd; /* Light grey for readability */
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Card Styles */
+    .card {
+      background: #2a2a2a; /* Dark grey */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* White shadow */
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4); /* Brighter white shadow on hover */
+    }
+
+    /* Images Section */
+    .images {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .images img {
+      max-width: 60%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow */
+      transition: transform 0.3s ease;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Video Section */
+    .video-container {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: #2a2a2a; /* Dark grey */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow */
+      transition: transform 0.3s ease;
+    }
+
+    .video-container:hover {
+      transform: scale(1.05);
+    }
+
+    .video-container iframe {
+      max-width: 100%;
+      height: 400px;
+      border-radius: 10px;
+      border: 5px solid #ffffff; /* White */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .images img {
+        max-width: 100%;
+      }
+
+      .video-container iframe {
+        height: 250px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BMW 7 Series Guide</h1>
+
+    <!-- Overview Section -->
+    <div class="card">
+      <h2>Overview</h2>
+      <p>The BMW 7 Series is the epitome of luxury and performance, combining cutting-edge technology, unparalleled comfort, and dynamic driving capabilities. This flagship sedan exudes elegance and sophistication, making it a top choice for those who demand the very best in automotive excellence.</p>
+    </div>
+
+    <!-- Single Image Section -->
+    <div class="images">
+      <img src="data:image/jpeg;base64,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" alt="BMW 7 Series">
+    </div>
+
+    <!-- Key Features Section -->
+    <div class="card">
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Luxurious Interior:</strong> Premium leather seats with elegant accents, complemented by ambient lighting for a refined atmosphere.</li>
+        <li><strong>Advanced Technology:</strong> Features the latest iDrive infotainment system, digital instrument cluster, and voice control.</li>
+        <li><strong>Comfort:</strong> Equipped with massaging seats, four-zone climate control, and a panoramic sunroof.</li>
+        <li><strong>Performance:</strong> Offers a range of powerful engines, including hybrid options, for a smooth and dynamic driving experience.</li>
+        <li><strong>Safety:</strong> Comprehensive safety features, including adaptive cruise control, lane-keeping assist, and autonomous driving capabilities.</li>
+      </ul>
+    </div>
+
+    <!-- Performance Section -->
+    <div class="card">
+      <h2>Performance</h2>
+      <ul>
+        <li><strong>Engine Options:</strong> Range includes a 3.0-liter inline-6, 4.4-liter V8, and a plug-in hybrid variant.</li>
+        <li><strong>Power Output:</strong> Up to 600 horsepower in the M760i variant.</li>
+        <li><strong>Transmission:</strong> 8-speed automatic with rear-wheel or all-wheel drive.</li>
+        <li><strong>Acceleration:</strong> 0-60 mph in as little as 3.6 seconds (M760i variant).</li>
+        <li><strong>Top Speed:</strong> Electronically limited to 155 mph (250 km/h), with higher limits available on certain models.</li>
+      </ul>
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <h2>Learn More About the BMW 7 Series</h2>
+      <iframe
+        width="560"
+        height="400"
+        src="https://www.youtube.com/embed/2eBAGKpf8p8" <!-- Replace with a relevant BMW 7 Series video -->
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Technology Section -->
+    <div class="card">
+      <h2>Technology</h2>
+      <ul>
+        <li><strong>iDrive Infotainment:</strong> Features a 12.3-inch touchscreen, gesture control, and natural language voice commands.</li>
+        <li><strong>Digital Instrument Cluster:</strong> Fully customizable for a modern and cohesive look.</li>
+        <li><strong>Driver Assistance:</strong> Includes adaptive cruise control, lane-keeping assist, and traffic jam assist.</li>
+        <li><strong>Comfort Features:</strong> Equipped with massaging seats, advanced climate control, and ambient lighting with customizable colors.</li>
+        <li><strong>Safety:</strong> Comprehensive safety features, including airbags, ABS, and stability control.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

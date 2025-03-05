@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brake Service</title>
+  <link rel="stylesheet" href="styleservice.css">
+</head>
+<body>
+  <header>
+    <h1>Brake Service</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="oil-change.html">Oil Change</a></li>
+        <li><a href="tire-rotation.html">Tire Rotation</a></li>
+        <li><a href="diagnostics.html">Engine Diagnostics</a></li>
+        <li><a href="fluid-check.html">Fluid Check</a></li>
+        <li><a href="air-filter.html">Air Filter Replacement</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>What is a Brake Service?</h2>
+    <p>A brake service involves inspecting and maintaining your car's braking system to ensure safety.</p>
+    <h3>Why It's Important</h3>
+    <ul>
+      <li>Ensures safe stopping.</li>
+      <li>Prevents brake failure.</li>
+      <li>Extends the life of brake components.</li>
+    </ul>
+  </main>
+</body>
+</html>

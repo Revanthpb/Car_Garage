@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Service</title>
+  
+</head>
+<style>
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #008000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #008000;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.service-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  color: #006400;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #008000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #006400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form select, form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #008000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #006400;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #008000;
+  color: #fff;
+  margin-top: 20px;
+}</style>
+<body>
+  <header>
+    <h1>Book a Service</h1>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="service_main.html">Services</a></li>
+		<li><a href="customization.html">Customization</a></li>
+        <li><a href="booking.html">Book a Service</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Schedule Your Appointment</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="service">Select Service:</label>
+      <select id="service" name="service" required>
+        <option value="oil-change">Oil Change</option>
+        <option value="brake-service">Brake Service</option>
+        <option value="tire-rotation">Tire Rotation</option>
+        <option value="diagnostics">Engine Diagnostics</option>
+        <option value="fluid-check">Fluid Check</option>
+        <option value="air-filter">Air Filter Replacement</option>
+      </select>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit" class="btn">Book Now</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Car Garage Maintenance. All rights reserved.</p>
+  </footer>
+</body>
+</html>

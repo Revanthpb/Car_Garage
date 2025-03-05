@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Chassis Guide</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #3498db;
+      display: inline-block;
+    }
+
+    p, ul {
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Card Styles */
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Images Section */
+    .images {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .images img {
+      max-width: 45%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      margin-bottom: 15px;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Video Section */
+    .video-container {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-container iframe {
+      max-width: 100%;
+      height: 400px;
+      border-radius: 10px;
+      border: 5px solid #3498db;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .images img {
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+
+      .video-container iframe {
+        height: 250px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Car Chassis Guide</h1>
+
+    <!-- Purpose Section -->
+    <div class="card">
+      <h2>Purpose</h2>
+      <p>The chassis is the structural framework of a vehicle, providing support for all major components, including the engine, transmission, suspension, and body. It ensures stability, safety, and performance by distributing weight and absorbing stresses.</p>
+    </div>
+
+    <!-- Types of Chassis Section -->
+    <div class="card">
+      <h2>Types of Chassis</h2>
+      <ul>
+        <li><strong>Ladder Frame Chassis:</strong> A traditional design with two parallel beams connected by cross members. Common in trucks and SUVs.</li>
+        <li><strong>Monocoque Chassis:</strong> A single-shell structure where the body and chassis are integrated. Common in modern cars for lightweight and rigidity.</li>
+        <li><strong>Backbone Chassis:</strong> Features a central backbone tube that connects the front and rear suspension. Used in some sports cars.</li>
+        <li><strong>Space Frame Chassis:</strong> A lightweight, rigid structure made of interconnected tubes. Used in high-performance and racing vehicles.</li>
+        <li><strong>Modular Chassis:</strong> Allows for flexibility in design and assembly, often used in electric vehicles.</li>
+      </ul>
+    </div>
+
+    <!-- Components Section -->
+    <div class="card">
+      <h2>Components</h2>
+      <ul>
+        <li><strong>Frame:</strong> The main structure that supports the vehicle's weight and components.</li>
+        <li><strong>Suspension Mounts:</strong> Points where the suspension system is attached to the chassis.</li>
+        <li><strong>Engine Mounts:</strong> Secure the engine to the chassis and reduce vibrations.</li>
+        <li><strong>Cross Members:</strong> Provide additional support and rigidity to the chassis.</li>
+        <li><strong>Crash Zones:</strong> Designed to absorb impact energy in the event of a collision.</li>
+      </ul>
+    </div>
+
+    <!-- Maintenance Section -->
+    <div class="card">
+      <h2>Maintenance</h2>
+      <ul>
+        <li>Regularly inspect the chassis for rust, cracks, or damage, especially in older vehicles.</li>
+        <li>Ensure all mounting points (e.g., suspension and engine mounts) are secure and free from wear.</li>
+        <li>Clean the chassis to remove dirt, salt, and debris that can cause corrosion.</li>
+        <li>Check for alignment issues, which can indicate chassis damage or wear.</li>
+        <li>Apply rust-proofing treatments to protect the chassis from corrosion.</li>
+      </ul>
+    </div>
+
+    <!-- Signs of Chassis Issues Section -->
+    <div class="card">
+      <h2>Signs of Chassis Issues</h2>
+      <ul>
+        <li><strong>Unusual Noises:</strong> Creaking or rattling sounds may indicate loose or damaged chassis components.</li>
+        <li><strong>Handling Problems:</strong> Poor handling or steering issues may suggest chassis misalignment or damage.</li>
+        <li><strong>Visible Damage:</strong> Cracks, rust, or bends in the chassis structure.</li>
+        <li><strong>Uneven Tire Wear:</strong> Misaligned chassis can cause uneven tire wear.</li>
+        <li><strong>Vibrations:</strong> Excessive vibrations while driving may indicate chassis or suspension issues.</li>
+      </ul>
+    </div>
+
+    <!-- Images Section -->
+    <div class="images">
+      <img src="https://via.placeholder.com/400x300?text=Chassis+Image+1" alt="Chassis Image 1">
+      <img src="https://via.placeholder.com/400x300?text=Chassis+Image+2" alt="Chassis Image 2">
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <h2>Learn More About Chassis</h2>
+      <iframe
+        width="560"
+        height="400"
+        src="https://www.youtube.com/embed/XYZ12345678" <!-- Replace with a relevant chassis video -->
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</body>
+</html>

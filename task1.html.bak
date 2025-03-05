@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Garage</title>
+  
+</head>
+<style>
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width : 10px;
+  height: 10px;
+ 
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  color: #007BFF;
+}
+
+/* Hero section styling */
+#hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #007BFF;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#hero .cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #fff;
+  color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#hero .cta-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+
+/* Services section styling */
+#services {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#services h2 {
+  margin-bottom: 1.5rem;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.service-item h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Featured Cars section styling */
+#featured-cars {
+  padding: 2rem;
+  text-align: center;
+}
+
+#featured-cars h2 {
+  margin-bottom: 1.5rem;
+}
+
+.car-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.car-item {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.car-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.car-item h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact section styling */
+#contact {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 1.5rem;
+}
+
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+   
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.navbar ul li {
+  position: relative; /* Needed for dropdown positioning */
+  display: inline-block;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover {
+  color: #007BFF;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 180px;
+  text-align: left;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: #red;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown-menu a:hover {
+  background-color: black;
+  color: black;
+}
+
+#contact button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #007BFF;
+}
+
+</style>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+	<img src="https://w7.pngwing.com/pngs/428/138/png-transparent-garage-car-logo-thumbnail.png"><!-- Add your logo image here -->
+      <span>Car Garage</span> 
+	</div>
+	
+    
+		<nav class="navbar">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li class="dropdown">
+      <a href="#" id="featured-cars-btn">Featured Cars ▼</a>
+      <div class="dropdown-menu" id="dropdown-menu">
+        <a href="sports.html">Sports Cars</a>
+        <a href="Luxury.html">Luxury Sedans</a>
+        <a href="Vintage.html">Classic Cars</a>
+        <a href="ev.html">Electric Vehicles</a>
+        <a href="offroad.html">Off-Road SUVs</a>
+       
+      </div>
+    </li>
+	<li><a href="register.php">Login</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+  </header>
+<!-- JavaScript for Toggle Dropdown -->
+<script>
+document.getElementById("featured-cars-btn").addEventListener("click", function(event) {
+  event.preventDefault(); // Prevent default link behavior
+  var dropdown = document.getElementById("dropdown-menu");
+
+  if (dropdown.style.visibility === "visible") {
+    dropdown.style.visibility = "visible";
+    dropdown.style.opacity = "1";
+  } else {
+    dropdown.style.visibility = "visible";
+    dropdown.style.opacity = "1";
+  }
+});
+
+// Close dropdown when clicking outside
+document.addEventListener("click", function(event) {
+  var dropdown = document.getElementById("dropdown-menu");
+  var button = document.getElementById("featured-cars-btn");
+
+  if (!dropdown.contains(event.target) && event.target !== button) {
+    dropdown.style.visibility = "hidden";
+    dropdown.style.opacity = "0";
+  }
+});
+</script>
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Welcome to Car Garage</h1>
+    <p>Your trusted partner for car repairs, maintenance, and customization.</p>
+    <a href="#services" class="cta-button">Explore Services</a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3><a href ="parts.html">Car Repairs</a></h3>
+        <p>We fix all types of car issues, from engine problems to brake repairs.</p>
+      </div>
+      <div class="service-item">
+        <h3><a href="main.html">Maintenance</a></h3>
+        <p>Regular maintenance to keep your car running smoothly.</p>
+      </div>
+      <div class="service-item">
+        <h3><a href="customization.html">Customization</a></h3>
+        <p>Upgrade your car with custom paint jobs, interiors, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Cars Section -->
+  <section id="featured-cars">
+    <h2>Featured Cars</h2>
+    <div class="car-list">
+      <div class="car-item">
+        <img src="https://wieck-nissanao-production.s3.amazonaws.com/photos/8861b4c50e030e3cee32b3807b12346f39f4fe27/preview-928x522.jpg" alt="Car 1">
+        <h3><a href ="sports.html">Sports Car</a></h3>
+        <p>High-performance sports car for speed enthusiasts.</p>
+      </div>
+      <div class="car-item">
+        <img src="https://www.topgear.com/sites/default/files/cars-car/image/2023/07/LIPMAN_JL93884_0.jpg" alt="Car 2">
+        <h3><a href ="luxury.html">Luxury Sedan</a></h3>
+        <p>Elegant and comfortable luxury sedan.</p>
+      </div>
+      <div class="car-item">
+        <img src="https://i.pinimg.com/736x/d3/a4/dd/d3a4dd312aa2f8016ecf87eb9aafaf17.jpg" alt="Car 3">
+        <h3><a href ="vintage.html">Classic Car</a></h3>
+        <p>Vintage classic car for collectors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy;2025 Car Garage. All rights reserved.</p>
+    <nav>
+      <a href="#privacy">Privacy Policy</a> | 
+      <a href="#terms">Terms of Service</a>
+    </nav>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercedes-Benz S-Class Guide</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a); /* Black gradient */
+      margin: 0;
+      padding: 0;
+      color: #fff; /* White text for contrast */
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #1a1a1a; /* Dark background */
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* White shadow */
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #ffffff; /* White */
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #ffffff; /* White */
+      display: inline-block;
+    }
+
+    p, ul {
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #ddd; /* Light grey for readability */
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Card Styles */
+    .card {
+      background: #2a2a2a; /* Dark grey */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* White shadow */
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4); /* Brighter white shadow on hover */
+    }
+
+    /* Images Section */
+    .images {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .images img {
+      max-width: 60%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow */
+      transition: transform 0.3s ease;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Video Section */
+    .video-container {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: #2a2a2a; /* Dark grey */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow */
+      transition: transform 0.3s ease;
+    }
+
+    .video-container:hover {
+      transform: scale(1.05);
+    }
+
+    .video-container iframe {
+      max-width: 100%;
+      height: 400px;
+      border-radius: 10px;
+      border: 5px solid #ffffff; /* White */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .images img {
+        max-width: 100%;
+      }
+
+      .video-container iframe {
+        height: 250px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mercedes-Benz S-Class Guide</h1>
+
+    <!-- Overview Section -->
+    <div class="card">
+      <h2>Overview</h2>
+      <p>The Mercedes-Benz S-Class is the flagship luxury sedan of the Mercedes-Benz lineup, renowned for its cutting-edge technology, unparalleled comfort, and timeless elegance. It sets the standard for luxury vehicles, offering a perfect blend of performance, innovation, and sophistication. The S-Class is designed for those who demand the very best in automotive excellence.</p>
+    </div>
+
+    <!-- Single Image Section -->
+    <div class="images">
+      <img src="https://www.example.com/mercedes-s-class.jpg" alt="Mercedes-Benz S-Class Image">
+    </div>
+
+    <!-- Key Features Section -->
+    <div class="card">
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Luxurious Interior:</strong> Handcrafted with premium materials, including leather, wood, and metal accents.</li>
+        <li><strong>Advanced Technology:</strong> Features the latest MBUX infotainment system, augmented reality navigation, and voice control.</li>
+        <li><strong>Comfort:</strong> Equipped with massaging seats, advanced climate control, and a panoramic sunroof.</li>
+        <li><strong>Performance:</strong> Offers a range of powerful engines, including hybrid and V12 options.</li>
+        <li><strong>Safety:</strong> Comprehensive safety features, including adaptive cruise control, lane-keeping assist, and autonomous driving capabilities.</li>
+      </ul>
+    </div>
+
+    <!-- Performance Section -->
+    <div class="card">
+      <h2>Performance</h2>
+      <ul>
+        <li><strong>Engine Options:</strong> Range includes a 3.0-liter inline-6, 4.0-liter V8, and 6.0-liter V12, with hybrid variants available.</li>
+        <li><strong>Power Output:</strong> Up to 621 horsepower in the AMG S 63 variant.</li>
+        <li><strong>Transmission:</strong> 9-speed automatic with rear-wheel or all-wheel drive.</li>
+        <li><strong>Acceleration:</strong> 0-60 mph in as little as 3.5 seconds (AMG S 63).</li>
+        <li><strong>Top Speed:</strong> Electronically limited to 155 mph (250 km/h), with higher limits available on certain models.</li>
+      </ul>
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <h2>Learn More About the Mercedes-Benz S-Class</h2>
+      <iframe
+        width="560"
+        height="400"
+        src="https://www.youtube.com/embed/-4zsY28t76k" <!-- Replace with a relevant Mercedes-Benz S-Class video -->
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Technology Section -->
+    <div class="card">
+      <h2>Technology</h2>
+      <ul>
+        <li><strong>MBUX Infotainment:</strong> Features a dual-screen setup, augmented reality navigation, and natural language voice control.</li>
+        <li><strong>Driver Assistance:</strong> Includes adaptive cruise control, lane-keeping assist, and autonomous driving capabilities.</li>
+        <li><strong>Comfort Features:</strong> Equipped with massaging seats, advanced climate control, and ambient lighting with 64 colors.</li>
+        <li><strong>Safety:</strong> Comprehensive safety features, including airbags, ABS, and stability control.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

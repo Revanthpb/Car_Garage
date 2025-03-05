@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 12 Off-Road SUVs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .suv-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-content: center;
+        }
+        .suv-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .suv-card:hover {
+            transform: translateY(-10px);
+        }
+        .suv-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .suv-card h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .suv-card p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+        }
+        @media (max-width: 1024px) {
+            .suv-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .suv-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Top 12 Off-Road SUVs</h1>
+    <div class="suv-container">
+        <!-- Jeep Wrangler -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Jeep+Wrangler" alt="Jeep Wrangler">
+            <h2>Jeep Wrangler</h2>
+            <p>
+                <strong>Engine:</strong> 3.6L V6<br>
+                <strong>Top Speed:</strong> 110 mph<br>
+                <strong>Horsepower:</strong> 285 HP<br>
+                <strong>Price:</strong> $31,000<br>
+                <strong>Origin:</strong> USA
+            </p>
+        </div>
+        <!-- Toyota Land Cruiser -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Toyota+Land+Cruiser" alt="Toyota Land Cruiser">
+            <h2>Toyota Land Cruiser</h2>
+            <p>
+                <strong>Engine:</strong> 5.7L V8<br>
+                <strong>Top Speed:</strong> 130 mph<br>
+                <strong>Horsepower:</strong> 381 HP<br>
+                <strong>Price:</strong> $85,000<br>
+                <strong>Origin:</strong> Japan
+            </p>
+        </div>
+        <!-- Land Rover Defender -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Land+Rover+Defender" alt="Land Rover Defender">
+            <h2>Land Rover Defender</h2>
+            <p>
+                <strong>Engine:</strong> 2.0L Turbocharged I4<br>
+                <strong>Top Speed:</strong> 120 mph<br>
+                <strong>Horsepower:</strong> 296 HP<br>
+                <strong>Price:</strong> $50,000<br>
+                <strong>Origin:</strong> UK
+            </p>
+        </div>
+        <!-- Ford Bronco -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Ford+Bronco" alt="Ford Bronco">
+            <h2>Ford Bronco</h2>
+            <p>
+                <strong>Engine:</strong> 2.7L V6<br>
+                <strong>Top Speed:</strong> 110 mph<br>
+                <strong>Horsepower:</strong> 310 HP<br>
+                <strong>Price:</strong> $35,000<br>
+                <strong>Origin:</strong> USA
+            </p>
+        </div>
+        <!-- Mercedes G-Class -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Mercedes+G-Class" alt="Mercedes G-Class">
+            <h2>Mercedes G-Class</h2>
+            <p>
+                <strong>Engine:</strong> 4.0L V8 Biturbo<br>
+                <strong>Top Speed:</strong> 130 mph<br>
+                <strong>Horsepower:</strong> 577 HP<br>
+                <strong>Price:</strong> $131,000<br>
+                <strong>Origin:</strong> Germany
+            </p>
+        </div>
+        <!-- Chevrolet Tahoe Z71 -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Chevrolet+Tahoe+Z71" alt="Chevrolet Tahoe Z71">
+            <h2>Chevrolet Tahoe Z71</h2>
+            <p>
+                <strong>Engine:</strong> 5.3L V8<br>
+                <strong>Top Speed:</strong> 120 mph<br>
+                <strong>Horsepower:</strong> 355 HP<br>
+                <strong>Price:</strong> $55,000<br>
+                <strong>Origin:</strong> USA
+            </p>
+        </div>
+        <!-- Nissan Patrol -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Nissan+Patrol" alt="Nissan Patrol">
+            <h2>Nissan Patrol</h2>
+            <p>
+                <strong>Engine:</strong> 5.6L V8<br>
+                <strong>Top Speed:</strong> 130 mph<br>
+                <strong>Horsepower:</strong> 400 HP<br>
+                <strong>Price:</strong> $70,000<br>
+                <strong>Origin:</strong> Japan
+            </p>
+        </div>
+        <!-- Subaru Outback Wilderness -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Subaru+Outback+Wilderness" alt="Subaru Outback Wilderness">
+            <h2>Subaru Outback Wilderness</h2>
+            <p>
+                <strong>Engine:</strong> 2.4L Turbocharged H4<br>
+                <strong>Top Speed:</strong> 120 mph<br>
+                <strong>Horsepower:</strong> 260 HP<br>
+                <strong>Price:</strong> $38,000<br>
+                <strong>Origin:</strong> Japan
+            </p>
+        </div>
+        <!-- Lexus GX -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Lexus+GX" alt="Lexus GX">
+            <h2>Lexus GX</h2>
+            <p>
+                <strong>Engine:</strong> 4.6L V8<br>
+                <strong>Top Speed:</strong> 110 mph<br>
+                <strong>Horsepower:</strong> 301 HP<br>
+                <strong>Price:</strong> $54,000<br>
+                <strong>Origin:</strong> Japan
+            </p>
+        </div>
+        <!-- Ford F-150 Raptor -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Ford+F-150+Raptor" alt="Ford F-150 Raptor">
+            <h2>Ford F-150 Raptor</h2>
+            <p>
+                <strong>Engine:</strong> 3.5L V6 Twin-Turbo<br>
+                <strong>Top Speed:</strong> 110 mph<br>
+                <strong>Horsepower:</strong> 450 HP<br>
+                <strong>Price:</strong> $70,000<br>
+                <strong>Origin:</strong> USA
+            </p>
+        </div>
+        <!-- GMC Hummer EV SUV -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=GMC+Hummer+EV+SUV" alt="GMC Hummer EV SUV">
+            <h2>GMC Hummer EV SUV</h2>
+            <p>
+                <strong>Engine:</strong> Electric<br>
+                <strong>Top Speed:</strong> 106 mph<br>
+                <strong>Horsepower:</strong> 1,000 HP<br>
+                <strong>Price:</strong> $110,000<br>
+                <strong>Origin:</strong> USA
+            </p>
+        </div>
+        <!-- Suzuki Jimny -->
+        <div class="suv-card">
+            <img src="https://via.placeholder.com/300x200?text=Suzuki+Jimny" alt="Suzuki Jimny">
+            <h2>Suzuki Jimny</h2>
+            <p>
+                <strong>Engine:</strong> 1.5L I4<br>
+                <strong>Top Speed:</strong> 90 mph<br>
+                <strong>Horsepower:</strong> 102 HP<br>
+                <strong>Price:</strong> $25,000<br>
+                <strong>Origin:</strong> Japan
+            </p>
+        </div>
+    </div>
+</body>
+</html>
